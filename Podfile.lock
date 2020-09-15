@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (5.2.1)
+  - Framework (1.0.0):
+    - Alamofire (= 5.2.1)
+  - ModuleA (1.0.0):
+    - Framework (= 1.0.0)
+  - ModuleB (1.0.0):
+    - Framework (= 1.0.0)
+
+DEPENDENCIES:
+  - Framework (from `https://github.com/lijingcheng/Framework.git`)
+  - ModuleA (from `https://github.com/lijingcheng/ModuleA.git`)
+  - ModuleB (from `https://github.com/lijingcheng/ModuleB.git`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  Framework:
+    :git: https://github.com/lijingcheng/Framework.git
+  ModuleA:
+    :git: https://github.com/lijingcheng/ModuleA.git
+  ModuleB:
+    :git: https://github.com/lijingcheng/ModuleB.git
+
+CHECKOUT OPTIONS:
+  Framework:
+    :commit: 58470b114c92daac7e252034f1361ad4fcbef775
+    :git: https://github.com/lijingcheng/Framework.git
+  ModuleA:
+    :commit: 0f18f5bd651c576ae5d1c075496a9dd11752b2fe
+    :git: https://github.com/lijingcheng/ModuleA.git
+  ModuleB:
+    :commit: 92d1784cfff04b61ec761351b885f3742c2d607d
+    :git: https://github.com/lijingcheng/ModuleB.git
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  Framework: a1ca76d65959ee02d40e7c49a6d6e7008f24737d
+  ModuleA: 94cdfe3ac48c2ef91de0aa8b2e1a16370089b7dc
+  ModuleB: 33302008ca4ce50025bf0c0b323d6b1174307e88
+
+PODFILE CHECKSUM: 0d8dcef4ab7fd0b607df1c4707bb5f18dde46549
+
+COCOAPODS: 1.9.3
